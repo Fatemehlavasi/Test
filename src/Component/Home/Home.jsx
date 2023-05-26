@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Grid, Typography, Button, IconButton } from "@mui/material";
 import Table from "../Table/Table";
-// import Modal from "@mui/material/Modal";
+import Modal from "@mui/material/Modal";
 // import Typography from "@mui/material/Typography";
 import Box from '@mui/material/Box';
 // import Typography from '@mui/material/Typography';
