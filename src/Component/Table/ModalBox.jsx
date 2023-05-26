@@ -71,7 +71,7 @@ function ModalBox({ open, handleClose }) {
           </Grid>
           <Grid gap={"30px"} mt={"30px"} display={"flex"}>
             <Grid sx={{ width: 350 }}>
-              <Typography id="modal-modal-title" variant="h6" component="h2"  fontFamily="Iranyekanwebregular">
+              <Typography id="modal-modal-title"   fontFamily="Iranyekanwebregular">
                نام و نام خانوادگی :
               </Typography>
               <TextField
@@ -81,7 +81,7 @@ function ModalBox({ open, handleClose }) {
               />
             </Grid>
             <Grid>
-              <Typography id="modal-modal-description" sx={{ mt: 1 , fontFamily:"Iranyekanwebregular"}}>
+              <Typography id="modal-modal-description"  fontFamily="Iranyekanwebregular">
                 شماره تلفن :
               </Typography>
               <TextField
