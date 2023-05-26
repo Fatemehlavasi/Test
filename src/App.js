@@ -2,19 +2,12 @@ import logo from "./logo.svg";
 import "./App.css";
 import * as React from "react";
 import Home from "./Component/Home/Home";
-import { Grid, Button } from "@mui/material";
+import { Grid, Button, Typography } from "@mui/material";
 
 function App() {
-
   return (
-    <Grid
-      sx={{
-        width: "100%",
-        bgcolor: "#ffff",
-
-      }}
-    >
-     
+    <Grid container>
+      
       <Home />
     </Grid>
   );
